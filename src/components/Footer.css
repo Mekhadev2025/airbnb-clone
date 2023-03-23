@@ -1,0 +1,14 @@
+ ul{
+    list-style: none;
+    display: flex;
+    
+    
+}
+.Main{
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    padding: 10px;
+    margin: 10px;
+}
