@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Card from './components/Card';
 import data from "./data"
+import Footer from './components/Footer';
 function App() {
 
 const cards =data.map(item=>{
@@ -24,8 +25,9 @@ const cards =data.map(item=>{
   return (
   <div>
     <Navbar/>
+    <Hero/>
     <section className='cards--list'> {cards}</section>
-   
+    <Footer/>
     </div>
   );
 }
